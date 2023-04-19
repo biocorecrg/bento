@@ -158,8 +158,8 @@ variable "vboxmanage" {
       "{{.Name}}",
       "--audio",
       "none",
-      "--nat-localhostreachable1",
-      "on",
+      #"--nat-localhostreachable1",
+      #"on",
     ]
   ]
 }

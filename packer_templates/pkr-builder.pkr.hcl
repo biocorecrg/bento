@@ -106,6 +106,7 @@ locals {
             "${path.root}/scripts/_common/parallels.sh",
             "${path.root}/scripts/${var.os_name}/hyperv_${var.os_name}.sh",
             "${path.root}/scripts/${var.os_name}/cleanup_${var.os_name}.sh",
+            "${path.root}/scripts/${var.os_name}/biocore_${var.os_name}.sh",
             "${path.root}/scripts/_common/minimize.sh"
             ] : (
             var.os_name == "fedora" ? [
